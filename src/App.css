@@ -1,0 +1,25 @@
+.leftside, .rightside {
+    height: 50vh;
+    width: 100%;
+}
+
+@media (min-width: 768px){
+    .leftside, .rightside{
+        height: 100%;
+    }
+}
+
+.leftside {
+    background: whitesmoke;
+}
+
+.rightside {
+    position: fixed;
+    height: 91vh;
+    width: 50%;
+}
+
+#windy {
+    height: 100%;
+    width: 100%;
+}
