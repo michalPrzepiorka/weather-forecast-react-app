@@ -1,4 +1,4 @@
-#Weather forecast 
+# Weather forecast 
 
 This app uses my own weather API.
 To run it you have also to clone my other repository wchich is:
@@ -9,9 +9,17 @@ DateController
 and
 WeatherTemperatureController
 
-###How to start?
+## How to start?
+
+### Installation of packages
+
 ```
 yarn
+```
+
+### Starting up the project
+
+```
 yarn start
 ```
 
