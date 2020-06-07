@@ -1,4 +1,13 @@
 .weather-list {
     display: flex;
     padding: 1rem;
+    position: relative;
+}
+
+@media (min-width: 768px){
+    .weather-list {
+        display: flex;
+        padding: 1rem;
+        position: absolute;
+    }
 }
