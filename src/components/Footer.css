@@ -12,7 +12,7 @@
         color: lightgray;
         background: #2a2a2a;
         padding-top: 3em;
-        position: fixed;
+        position: relative;
         bottom: 0;
         width: 100%;
     }
