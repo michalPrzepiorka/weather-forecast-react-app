@@ -4,8 +4,24 @@
 }
 
 @media (min-width: 768px){
-    .leftside, .rightside{
+    .leftside {
         height: 100%;
+    }
+
+    .rightside {
+        position: fixed;
+
+    }
+}
+
+@media (max-width: 768px){
+    .leftside {
+        height: 100%;
+        
+    }
+
+    .rightside {
+        display: none;
     }
 }
 
