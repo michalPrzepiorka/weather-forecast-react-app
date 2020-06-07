@@ -9,6 +9,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Weather from './Weather';
 import Chart from './components/Chart';
 import { getWeather } from './services/weatherService';
+import Footer from './components/Footer';
+import './components/Footer.css'
 
 class App extends Component {
 
@@ -57,7 +59,8 @@ class App extends Component {
       backdrop = <Backdrop click={this.backdropClickHandler}/>;
     }
     return (
-      <div className="main-page" style={{height: '100%'}}>
+      <div className="main-page">
+        <div className="content-wrap">
         <Toolbar drawerClickHandler={this.drawerToggleCliclHandler} />
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
@@ -79,6 +82,8 @@ class App extends Component {
             </div>
           </div>
         </main>
+        </div>
+        <Footer />
       </div>
     );
   }

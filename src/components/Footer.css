@@ -1,0 +1,19 @@
+.main-footer {
+    color: lightgray;
+    background: #2a2a2a;
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px){
+    .main-footer {
+        color: lightgray;
+        background: #2a2a2a;
+        padding-top: 3em;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
